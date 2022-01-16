@@ -1,1 +1,1 @@
-high score: 20
+high score: 0
