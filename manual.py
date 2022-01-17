@@ -42,5 +42,3 @@ def manual_page():
     screen.blit(control2, (300, 470))
     screen.blit(resized_P_key, (160, 550))
     screen.blit(control3, (300, 570))
-
-

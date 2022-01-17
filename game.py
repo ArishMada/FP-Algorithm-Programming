@@ -37,6 +37,8 @@ def start():
     Dumbledore.dead = False
     Dumbledore.alive = True
     Dumbledore.health = 20
+    Dumbledore.x = 10
+    Dumbledore.y = 350
     score = 0
     Dumbledore.dying_steps = 0
     while len(enemies_1) < num_of_enemies:

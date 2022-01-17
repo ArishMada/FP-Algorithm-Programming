@@ -122,7 +122,6 @@ def main():
         button('EXIT', 480, 560, 240, 50, 45, "exit")
 
         pygame.display.update()
-
     while running:
         Game()
         for event in pygame.event.get():
@@ -140,7 +139,6 @@ def main():
             main()
         if keys[pygame.K_r] and Dumbledore.dead:
             loading_screen()
-
     while instruction:
         manual_page()
         button("BACK", 800, 500, 200, 50, 45, "quit")
